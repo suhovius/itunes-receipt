@@ -2,13 +2,13 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |s|
-  s.name        = 'itunes-receipt'
+  s.name        = 'suhovius-itunes-receipt'
   s.description = %q{Handle iTunes In App Purchase Receipt Verification}
   s.summary     = %q{Handle iTunes In App Purchase Receipt Verification}
   s.version     = File.read(File.join(File.dirname(__FILE__), 'VERSION'))
-  s.authors     = ['nov matake']
+  s.authors     = ['nov matake', 'suhovius']
   s.email       = 'nov@matake.jp'
-  s.homepage    = 'http://github.com/nov/itunes-receipt'
+  s.homepage    = 'https://github.com/suhovius/itunes-receipt'
   s.require_paths = ['lib']
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

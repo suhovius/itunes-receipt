@@ -1,15 +1,21 @@
-= itunes-receipt
+= suhovius-itunes-receipt
 
 Handle iTunes In App Purchase Receipt Verification.
 
+== Please Note
+
+  This gem is clone of original itunes-receipt by nov matake [https://github.com/nov/itunes-receipt](https://github.com/nov/itunes-receipt)
+
+  There are some chages that were needed for my project. So, I'd recomend using original gem since it might be already updated with fixes that I've added here at this copy.
+
 == Installation
 
-  gem install itunes-receipt
+  gem install suhovius-itunes-receipt
 
 == Usage
 
    require 'itunes/receipt'
-   
+
    # pass Base64 encoded raw receipt data which you received from your iOS app
    receipt = Itunes::Receipt.verify! 'ewoJInNpZ25hdHVyZSIgPSAi...'
    receipt.product_id     # => 'com.example.products.100gems'

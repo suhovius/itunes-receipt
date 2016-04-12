@@ -4,7 +4,7 @@ Handle iTunes In App Purchase Receipt Verification.
 
 == Please Note
 
-  This gem is clone of original itunes-receipt by nov matake {https://github.com/nov/itunes-receipt}[https://github.com/nov/itunes-receipt]
+  This gem is clone of original itunes-receipt by nov matake https://github.com/nov/itunes-receipt
 
   There are some changes that were needed for my project. So, I'd recommend using original gem since it might be already updated with fixes that I've added here at this copy.
 
